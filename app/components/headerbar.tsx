@@ -1,6 +1,14 @@
+'use client'
+
 import Image from 'next/image'
 
+
+function redirect() : any {
+    window.location.pathname = '/loja/';
+}
+
 function Headerbar(){
+
     return(
         <>
         <div className="flex flex-row flex-wrap items-stretch bg-indigo-400">
@@ -13,7 +21,7 @@ function Headerbar(){
             </div>
             
             <div className="basis-1/5 flex justify-center items-center bg-indigo-300 hover:bg-indigo-400">
-                <h1 className="text-4xl"> Loja </h1>
+                <h1 className="text-4xl" onClick={redirect}> Loja </h1>
             </div>
             
             <div className="basis-1/5 flex justify-center items-center bg-indigo-200 hover:bg-indigo-400">
