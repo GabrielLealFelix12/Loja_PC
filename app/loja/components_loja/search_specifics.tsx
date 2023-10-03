@@ -7,7 +7,7 @@ const [valueprice, setValueprice] = useState(1);
 
     return(
     <>
-    <div className="bg-white max-w-fit rounded ml-6">
+    <div className="bg-white w-4/5 rounded ml-6">
         <div className="border-b border-b-blue-950">
         <label htmlFor={peca}> {peca} </label>
         <input type="checkbox" name={peca} id={peca}/>
