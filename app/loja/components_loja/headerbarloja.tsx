@@ -20,8 +20,8 @@ function Headerbarloja(){
                 </div>
             </div>
             
-            <div className="basis-1/5 flex justify-center items-center bg-indigo-300 hover:bg-indigo-400">
-                <h1 className="text-4xl" onClick={redirect}> Loja </h1>
+            <div onClick={redirect} className="basis-1/5 flex justify-center items-center bg-indigo-300 hover:bg-indigo-400">
+                <h1 className="text-4xl"> Loja </h1>
             </div>
             
             <div className="basis-1/5 flex justify-center items-center bg-indigo-200 hover:bg-indigo-400">
