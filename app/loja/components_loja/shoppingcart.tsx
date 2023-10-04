@@ -4,7 +4,8 @@ import Image from 'next/image'
 function Shoppingcart() : React.JSX.Element{
 return(
     <>
-    
+    <div style={{height:'25px'}} className="bg-indigo-400"> </div>
+
     <div className='flex w-[35%]'>
       
       <div className='flex rounded-full bg-white w-full justify-center p-8'> 
