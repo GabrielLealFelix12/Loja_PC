@@ -7,6 +7,10 @@ function redirect() : any {
     window.location.pathname = '/loja/';
 }
 
+function redirect_login() : any {
+    window.location.pathname = '/login/';
+}
+
 function Headerbar_SobreProduct(){
 
     return(
@@ -24,8 +28,8 @@ function Headerbar_SobreProduct(){
                 <h1 className="text-4xl"> Loja </h1>
             </div>
             
-            <div className="basis-1/5 flex justify-center items-center bg-indigo-200 hover:bg-indigo-400">
-               <h1 className="text-4xl"> Admin </h1>
+            <div onClick={redirect_login}  className="basis-1/5 flex justify-center items-center bg-indigo-200 hover:bg-indigo-400">
+               <h1 className="text-4xl"> Login </h1>
             </div>
         </div>
         </>
